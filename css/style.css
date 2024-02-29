@@ -1,0 +1,357 @@
+.nav-bar-c{
+    background-color: black !important;
+    --bs-navbar-hover-color: rgba(255, 255, 255, 1);
+    --bs-navbar-color: white;
+    --bs-nav-link-color: var(--bs-navbar-color);
+}
+.navbar-ul-bg{
+    background-color: white;
+    /* height: 85vh; */
+    color: black;
+}
+.navbar-nav .nav-link.active{
+    color: #025cc4 !important;
+}
+.navbar-nav .nav-link:hover{
+    color: #025cc4 !important ;
+
+}
+.dropdown-menu li {
+    position: relative;
+    }
+    .dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 10px;
+    top: 100%;
+    }
+    .dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+    }
+    .dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+    }
+    .dropdown ul li a:hover{
+        color: #0078ff;
+    }
+
+
+.home-section{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+} 
+.black-back h1{
+    color: white;
+    font-size:2.5rem;
+    position: relative;
+}
+.home-caption-ani  h1::after{
+    content: "";
+    position: absolute;
+    top:80px;
+    width: 50%;
+    margin-inline:auto ;
+   
+   font-size: 1.5rem;
+animation-name: ani-text ;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+@keyframes ani-text{
+    
+0%{content: "|";}
+3%{content: "D|";}
+6%{content: "De|";}
+9%{content: "Deve|";}
+12%{content: "Devel|";}
+15%{content: "Develo|";}
+18%{content: "Develop|";}
+21%{content: "Develope|";}
+24%{content: "Developer|";}
+27%{content: "Develope|";}
+30%{content: "Develop|";}
+33%{content: "Develo|";}
+36%{content: "Devel|";}
+39%{content: "Deve|";}
+42%{content: "Dev|";}
+45%{content: "De|";}
+48%{content: "D|";}
+51%{content: "F|";}
+54%{content: "Fr|";}
+57%{content: "Fre|";}
+60%{content: "Free|";}
+63%{content: "Freel|";}
+66%{content: "Freela|";}
+69%{content: "Freelan|";}
+72%{content: "Freelanc|";}
+75%{content: "Freelance|";}
+78%{content: "Freelancer|";}
+81%{content: "Freelance|";}
+84%{content: "Freelanc|";}
+87%{content: "Freelan|";}
+90%{content: "Freela|";}
+92%{content: "Freel|";}
+94%{content: "Free|";}
+96%{content: "Fre|";}
+98%{content: "Fr|";}
+100%{content: "F|";}
+
+
+
+}
+
+
+
+.shadow-about {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.about-me-left{
+    position: relative;
+
+}
+
+.about-me-left::before{
+   
+        content: "";
+        position: absolute;
+        height: 3px;
+        background-color: #0078ff;
+        width: 25%;
+        bottom: -12px;
+}
+.about-skills h5 {
+    font-size: 18px;
+    color: rgb(41, 41, 41);
+    font-weight: 300;
+}
+.about-detials .detials-title {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.icon-ser{
+    border: 10px solid #0078ff;
+    
+}
+.card:hover .icon-ser{
+    background-color: #0078ff;
+    border: 10px solid #8bbef9;
+}
+.servies-header div{
+    height: 5px;
+  width: 40px;
+    background-color: #0078ff;
+    
+}
+.counter-icon{
+    border: 10px solid #cde1f8;
+    width: 15%;
+}
+.counter-section{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+.counter-back{
+
+    background-color: #0077ffb4;
+    padding-block: 100px;
+   
+}
+.card{
+   box-shadow: 5px 5px 5px  rgba(203, 203, 203, 0.758);
+}
+.card-caption{
+    position: relative;
+}
+.card-caption button{
+position: absolute;
+bottom: 5px;
+right: 0;
+color: #0078ff;
+border: 0;
+background-color: transparent;
+--bs-btn-hover-color:#0078ff;
+}
+.card-caption span{
+    color: #0078ff;
+
+}
+.card-caption p{
+    font-size: 12px;
+
+}
+.card-caption h4{
+    font-size: 20px;
+
+}
+.box-pic img{
+    transition: all .8s ;
+}
+
+.box-card:hover img{
+    transform: scale(1.3);
+}
+.box-pic{
+    overflow: hidden;
+}
+.carousel-item img{
+    width: 50%;
+    margin-inline:auto ;
+    
+}
+.carousel-item{
+    height: 180px;
+}
+.slider-section{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.slider-back{
+
+    background-color: #0077ffb4;
+   
+}
+.carousel-indicators button{
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 50%;
+}
+.footer-pics{
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    overflow: hidden;
+
+}
+.footer-clock {
+    font-size: 15px;
+    font-weight: 300;
+}
+.footer-clock  span{
+    font-size: 13px;
+    margin-left: 2px;
+    text-transform: lowercase;
+}
+.card-box-blog{
+    background-color:#0078ff ;
+    color: white;
+    top: 49%;
+    left: 50%;
+}
+.card-box-blog h5{
+    margin: 0;
+    font-size: 12px;
+}
+.blog-section a:hover{
+    color: #0078ff !important;
+}
+.blog-section a{
+  transition: all .8s;
+}
+.contact-section{
+    background-image: linear-gradient(to right , hwb(212 0% 0% / 0.7) ,rgba(0, 119, 255, 0.7)), url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 0px 10px 10px 5px rgb(22, 22, 22);
+
+}
+.contact-section .container{
+    background-color: white;
+}
+div.contact-section-items-ul li i{
+    color: #0078ff;
+
+}
+div.contact-section-items-ul li{
+color: rgb(74, 74, 74);
+
+}
+.contact-social li{
+    display: inline-block;
+    padding-inline: 7px;
+
+}
+.contact-social li i{
+    font-size: 22px;
+    padding: 8px;
+    border-radius: 50%;
+    border: 5px solid #0078ff ;
+    transition: all .8s;
+}
+.contact-social li i:hover{
+    border: 5px solid #bcd7f6 ;
+    background-color:#0078ff ;
+}
+.footer-end-section {
+    background-color: #025cc4 ;
+}
+
+/* 
+|
+d|
+de|
+deve|
+devel|
+develo|
+develop|
+develope|
+developer|
+
+f|
+Fr|
+Fre|
+Free|
+Freel|
+Freela|
+Freelan|
+Freelanc|
+Freelance|
+Freelancer|
+
+
+
+P|
+Ph|
+Pho|
+Phot|
+Photo|
+Photog|
+Photogr|
+Photogra|
+Photograp|
+Photograph|
+Photographe|
+Photographer|
+
+
+
+
+
+
+D|
+De|
+Des|
+Desi|
+Desig|
+Design|
+Designe|
+Designer|
+
+
+
+*/
